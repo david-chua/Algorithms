@@ -23,7 +23,3 @@ if __name__ == '__main__':
   args = parser.parse_args()
 
   print("A profit of ${profit} can be made from the stock prices {prices}.".format(profit=find_max_profit(args.integers), prices=args.integers))
-
-# array = [10, 7, 5, 8, 11, 9]
-# array = [100, 90, 80, 50, 20, 10]
-# find_max_profit(array)
